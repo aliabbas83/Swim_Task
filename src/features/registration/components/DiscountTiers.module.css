@@ -1,0 +1,49 @@
+.discount {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:var(--color-surface);
+  color:var(--color-ink);
+}
+
+.discountTitle {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--color-alert-ink);
+}
+
+.tiers {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+}
+
+.tier {
+  padding:8px 10px;
+  border-radius:10px;
+  background:var(--color-alert-tint);
+}
+
+.tierRate {
+  font-family:var(--font-display);
+  font-size:22px;
+  font-weight:600;
+  color:var(--color-alert-ink);
+}
+
+.tierLabel {
+  font-size:14px;
+  font-weight:700;
+}
+
+.discountNote {
+  font-size:13px;
+  color:var(--color-muted);
+}

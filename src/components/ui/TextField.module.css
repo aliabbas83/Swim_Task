@@ -1,0 +1,43 @@
+.field {
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.label {
+  font-size:14px;
+  font-weight:700;
+  color:var(--color-muted);
+}
+
+.input {
+  width:100%;
+  height:50px;
+  padding:0 14px;
+  border:2px solid var(--color-border);
+  border-radius:var(--radius-sm);
+  background:var(--color-surface-soft);
+  color:var(--color-ink);
+  font-size:17px;
+}
+
+.input:focus {
+  outline:3px solid var(--color-water-light);
+  outline-offset:1px;
+  border-color:var(--color-primary);
+}
+
+.invalid {
+  border-color:var(--color-alert);
+}
+
+.hint {
+  font-size:13px;
+  color:var(--color-muted);
+}
+
+.error {
+  font-size:13px;
+  font-weight:700;
+  color:var(--color-alert-ink);
+}

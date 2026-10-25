@@ -1,0 +1,9 @@
+.group {
+  font-size:14px;
+  color:var(--color-muted);
+}
+
+.group strong {
+  color:var(--color-navy);
+  font-weight:800;
+}

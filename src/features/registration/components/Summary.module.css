@@ -1,0 +1,26 @@
+.line {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+}
+
+.label {
+  font-size:14px;
+  font-weight:700;
+  color:var(--color-muted);
+}
+
+.note {
+  font-size:13px;
+  font-weight:800;
+  color:var(--color-alert-ink);
+}
+
+.value {
+  font-family:var(--font-display);
+  font-size:26px;
+  font-weight:600;
+  color:var(--color-navy);
+  white-space:nowrap;
+}

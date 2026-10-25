@@ -1,0 +1,45 @@
+.facts {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+
+.fact {
+  padding:12px 8px;
+  border-radius:14px;
+  background:var(--color-surface-tint);
+  text-align:center;
+}
+
+.factIcon {
+  display:inline-flex;
+  color:var(--color-primary);
+}
+
+.factValue {
+  margin-top:4px;
+  font-size:17px;
+  font-weight:800;
+}
+
+.factLabel {
+  font-size:13px;
+  color:var(--color-muted);
+}
+
+.priceRow {
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:12px;
+  padding-top:14px;
+  border-top:1px solid var(--color-divider);
+}
+
+.price {
+  font-family:var(--font-display);
+  font-size:22px;
+  font-weight:600;
+  color:var(--color-navy);
+  white-space:nowrap;
+}

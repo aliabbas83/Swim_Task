@@ -1,0 +1,16 @@
+.ageGroups {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.ageGroup {
+  padding:10px 4px;
+  border:2px solid #bfe0ef;
+  border-radius:var(--radius-sm);
+  font-weight:800;
+  text-align:center;
+}

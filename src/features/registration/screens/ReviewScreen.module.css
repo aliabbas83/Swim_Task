@@ -1,0 +1,32 @@
+.reviewGrid {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  align-items:start;
+  gap:16px;
+}
+
+@media(min-width:900px) {
+  .reviewGrid {
+    grid-template-columns:minmax(0,3fr) minmax(0,2fr);
+  }
+}
+
+.reviewSide {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.highlight {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 12px;
+  border-radius:var(--radius-sm);
+  background:var(--color-surface-tint);
+}
+
+.highlight strong {
+  color:var(--color-navy);
+}

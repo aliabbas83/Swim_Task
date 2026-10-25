@@ -1,0 +1,72 @@
+.list {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.listItem {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 0;
+  border-top:1px solid #e1eef4;
+}
+
+.listItem:first-child {
+  border-top:0;
+  padding-top:0;
+}
+
+.who {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+}
+
+.name {
+  font-weight:800;
+}
+
+.meta {
+  font-size:14px;
+  color:var(--color-muted);
+}
+
+.amount {
+  font-weight:700;
+  color:var(--color-muted);
+  white-space:nowrap;
+}
+
+.totals {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.totalRow {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.discountRow {
+  color:var(--color-alert-ink);
+  font-weight:800;
+}
+
+.grandTotal {
+  align-items:baseline;
+  padding-top:10px;
+  border-top:2px solid var(--color-divider);
+  font-weight:800;
+}
+
+.grandTotal>:last-child {
+  font-family:var(--font-display);
+  font-size:28px;
+  font-weight:600;
+  color:var(--color-navy);
+}
