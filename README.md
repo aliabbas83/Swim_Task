@@ -47,3 +47,8 @@ src/
 - **Changing prices/discounts/periods**: edit `features/registration/config.ts` only.
 
 The API route currently returns a receipt without persisting anything (see the `TODO` in `route.ts`).
+
+## More
+
+See [projectDescription.md](projectDescription.md) for the full project description, business rules, migration checklist and known gaps.
+
